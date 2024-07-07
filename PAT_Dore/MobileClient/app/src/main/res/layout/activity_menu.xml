@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/borrowButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrow Equipment" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Equipment" />
+
+    <Button
+        android:id="@+id/checkAvailableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Available Equipment" />
+
+    <Button
+        android:id="@+id/borrowRecordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Borrow Record" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</LinearLayout>
